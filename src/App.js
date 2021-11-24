@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { CartProvider } from './CartContext';
 //-------Components------------
 import FirstNavbar from './Components/NavigationComponents/FirstNavbar/FirstNavBar';
@@ -16,7 +16,7 @@ const App= ()=> {
 
   
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
           <div className="App">
           <CartProvider>  
             <FirstNavbar />
