@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4d1f40d1dc72f2f3874cf5422a5bb73",
+    "revision": "af77035728cce8d853d8a6b6bf50e2f4",
     "url": "/TecnoSecurity/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TecnoSecurity/static/css/2.f3c24f35.chunk.css"
   },
   {
-    "revision": "954a3757f062bf0c1478",
+    "revision": "1c3978f62e334cdeeb18",
     "url": "/TecnoSecurity/static/css/main.44395572.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TecnoSecurity/static/js/2.8bddf874.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "954a3757f062bf0c1478",
-    "url": "/TecnoSecurity/static/js/main.6d29af16.chunk.js"
+    "revision": "1c3978f62e334cdeeb18",
+    "url": "/TecnoSecurity/static/js/main.42dfa204.chunk.js"
   },
   {
     "revision": "7f457550efe26b77b335",
