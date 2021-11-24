@@ -1,0 +1,161 @@
+﻿.content {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 width: 100%;
+	 height: auto;
+	 background-color: white;
+}
+ .filters {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 position: initial;
+	 width: 20%;
+	 height: 500px;
+	 font-family: Roboto;
+}
+  .filterContainer {
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: flex-start;
+}
+  .filterContainer h3 {
+	 margin-top: 50px;
+	 width: 100%;
+	 text-align: center;
+	 font-size: 23px;
+}
+  .filterContainer span, .filters .filterContainer h3 {
+	 color: black;
+}
+
+/*-----------------------menu desplegable-------------------*/
+.dropCategories{
+	width: 100%;
+	padding: 0%;
+}
+.dropCategories:hover.dropCategories li ul{display: flex;}
+	
+.dropCategories .dropButton{
+	color: rgb(255, 255, 255);
+	list-style: none;
+	text-align: center;
+	font-size: 15px;
+	font-family: Roboto;
+	background-color: rgb(71, 71, 71);
+	border-radius: 20px;
+	padding: 2px 0 2px 0;
+}
+.dropCategories li ul{
+	position: absolute;
+	display: none;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	width: 295px;
+}
+.dropCategories li ul li{
+	width: 100%;
+	margin: 10px 0 10px 0;
+	background-color: rgb(34, 34, 34);
+}
+.buttons {
+	background-color: rgb(34, 34, 34);
+	transform: skewX(10deg);
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	margin: 30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	}
+
+	.buttons:hover, .buttons:hover.buttons button{
+		transform:scale(110%);
+		background-color: red;
+	}
+
+	.buttons button{
+		cursor: pointer;
+		background-color: rgb(34, 34, 34);
+		border: none;
+		font-family: Roboto;
+		font-size: 16px;
+		color:  white;
+		transition: all 0.5s;
+	}
+
+/*-----------------------fin menu desplegable-------------------*/
+	
+
+  .buscador {
+	 height: 40px;
+	 width: 400px;
+	 margin: 20px;
+	 border-radius: 5px;
+	 border: 1px solid gray;
+}
+ .filters .filterContainer div .botonMas {
+	 color: white;
+	 font-weight: bold;
+	 background-color: yellowgreen;
+	 border: none;
+	 cursor: pointer;
+}
+ 
+ .articleList {
+	 width: 80%;
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: space-around;
+}
+ .article {
+	 margin: 40px;
+	 padding: 30px;
+	 font-family: Roboto;
+	 text-align: left;
+	 color: black;
+	 width: 300px;
+	 height: auto;
+	}
+	
+ .article img {
+	 width: 100%;
+	 height: auto;
+}
+ @media (max-width: 805px) {
+	 .content {
+		 flex-direction: column;
+	}
+	 .filters {
+		 width: 80%;
+	}
+	 .filters form {
+		 width: 100%;
+		 height: 100%;
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: center;
+		 align-items: center;
+	}
+	 .articleList {width: 100%;}
+	 .article {
+		 width: 200px !important;
+		 height: auto;
+	}
+}
+ @media (max-width: 496px) {
+
+	.buscador {width: 230px;}
+	 .article {
+		 width: 50% !important;
+		 height: auto;
+	}
+}
+ 

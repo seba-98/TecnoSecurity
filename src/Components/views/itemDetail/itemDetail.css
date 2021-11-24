@@ -1,0 +1,156 @@
+﻿.vistaArticulo, .articleDetail{
+	display: flex;
+	font-family: Roboto;
+}
+
+.vistaArticulo{
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 30px 0 30px 0;
+	height: 1300px;
+}
+.articleDetail{
+	height:auto;
+	width: 70%;
+	flex-direction: column;
+}
+
+.title{
+	text-align: center;
+	/* border: 1px solid red; */
+	font-size: 40px;
+	color: black;
+}
+
+
+/*-----------------images----------------*/
+.imagesContent{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	/* border: 1px solid greenyellow; */
+	margin: 20px;
+}
+.imagesContent img{
+	width: 400px;
+}
+/*-----------------images----------------*/
+
+
+/*-----------------description and price----------------*/
+.descContent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 18px;
+	color: black;
+}
+.descContent p{ 
+	text-align: center;
+}
+	
+.articleInfo{
+	font-size: 19px;
+	font-weight: bold;
+	width: 100%;
+	color: rgb(70, 70, 70);
+}
+.price{
+	font-size: 26px;
+	font-weight: bold;
+	color: rgb(54, 54, 54);
+}
+
+/*-----------------fin description and price----------------*/
+
+
+/*----------------Counter widgets-----------------*/
+.counterWidgetContent {
+	color: black;
+	/* border: 5px solid rgb(43, 76, 226); */
+}
+.cantidadDetailContent{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/* border: 1px solid green; */
+}
+.textUnity{
+	justify-self: center;
+	width: 98%;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	color: rgb(54, 54, 54);
+}
+.cantidadDetail{
+	width: 100px;
+	border: 2px solid rgb(117, 116, 116);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.cantidadDetail button{
+	padding: 10px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(70, 70, 70);
+	cursor: pointer;
+}
+.sumar{
+	background-color: greenyellow;
+}
+.restar{
+	background-color: rgb(230, 95, 95);
+}
+.cantidadDetail p{
+	margin: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+/*----------------fin Counter widgets-----------------*/
+
+
+.botonAdd{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.botonAdd button{
+	padding: 14px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.botonMas{
+	background-color: rgb(23, 105, 248);
+}
+.botonMenos{
+	background-color: rgb(248, 72, 72);
+}
+
+
+@media(max-width:1490px){
+	.articleDetail{
+		padding-top: 20px;
+		width: 100% !important;
+	}
+
+	.imagesContent img{
+		width: 300px;
+	}
+
+}

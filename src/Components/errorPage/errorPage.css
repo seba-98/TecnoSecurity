@@ -1,0 +1,22 @@
+.errContent{
+    background-image: url(../../images/404.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    height: 900px;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+@media(max-width: 1241px){
+    .errContent{
+        background-size: contain;
+        height: 100vh;
+        font-size:25px;
+    }
+}

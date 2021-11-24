@@ -1,0 +1,125 @@
+﻿.cartContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 170px;
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+}
+ .cartContainer ul {
+	 width: 90%;
+	 height: 100%;
+	 display: flex;
+	 flex-direction: column;
+	 font-family: Roboto;
+}
+ .cartContainer ul li {
+	 width: 100%;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 border-bottom: 3px solid gray;
+}
+ .cartContainer ul li .imgCart {
+	 max-width: 200px;
+}
+ .cartContainer ul li p {
+	 font-size: 24px;
+	 margin: 0 30px 0 30px;
+}
+ .cartContainer ul li .cantidadCart {
+	 display: flex;
+	 align-self: center;
+	 justify-content: center;
+	 flex-direction: row;
+	 margin: 0 100px 0 100px;
+}
+ .cartContainer ul li .cantidadCart button {
+	 max-height: 30px;
+}
+ .cartContainer ul li .cartPrice {
+	 margin: 0 100px 0 100px;
+	 display: flex;
+	 flex-direction: wrap;
+	 flex-wrap: nowrap;
+	 align-self: center;
+}
+ .cartContainer ul li .cartPrice span {
+	 color: green;
+	 margin: 0 5px 0 5px;
+}
+ .aviso {
+	 color: white;
+}
+ .total {
+	 position: initial;
+	 font-family: Roboto;
+	 font-size: 25px;
+	 text-align: center;
+	 padding-top: 20px;
+	 width: 100%;
+	 margin-bottom: 50px;
+}
+ .total span {
+	 color: green;
+	 width: 100px;
+	 height: 40px;
+}
+ .cartMenos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	 color: white;
+	 font-weight: bold;
+	 font-size: 18px;
+	 background-color: #e42c2c;
+	 border: none;
+	 cursor: pointer;
+	 border-radius: 5px;
+	 padding: 10px;
+}
+ .cartMenos:hover {
+	 box-shadow: 0px 0px 10px 1px #f33b34;
+}
+ .cartMas {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 color: white;
+	 font-size: 18px;
+	 padding: 10px;
+	 font-weight: bold;
+	 border-radius: 5px;
+	 background-color: yellowgreen;
+	 border: none;
+	 cursor: pointer;
+}
+ .cartMas:hover {
+	 box-shadow: 0px 0px 10px 1px #39f500;
+}
+ .vaciar-container {
+	 height: 300px;
+	 width: 100%;
+	 display: flex;
+	 flex-direction: column;
+	 font-size: 30px;
+	 justify-content: center;
+	 align-items: center;
+}
+ @media (max-width: 1334px) {
+	 .imgCart img {
+		 width: 140px !important;
+	}
+}
+ @media (max-width: 321px) {
+	 .cartPrice {
+		 font-size: 18px;
+	}
+	 .cartPrice span {
+		 color: green;
+		 margin: 0 5px 0 5px;
+	}
+}
+ 

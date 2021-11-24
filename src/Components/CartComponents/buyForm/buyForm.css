@@ -1,0 +1,123 @@
+.buyFormContainer ,.buyForm ,.inputContainer ,.buyFormGroup{
+    display: flex;
+}
+
+.buyFormContainer{
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(19,19,19);
+}
+
+.buyForm{
+    color: black;
+    border: none;
+    overflow: visible;
+    height: auto;
+}
+.buyForm h2{
+    text-align: center;
+}
+.inputContainer{
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 90%;
+}
+.inputContainer input{
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    height: 30px;
+}
+
+.buyFormGroup{
+    margin: 20px 4% 20px 4%;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 40%;
+}
+
+.sendButton{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(17, 128, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sendButton:hover{
+    background-color: rgb(71, 152, 245);
+}
+
+/*---------------------modal---------------------*/
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    width: 99%;
+    background-color: rgba(218, 218, 218, 0.4);
+    height: 300%;
+    position: absolute;
+}
+.buyInfo{
+    position: fixed;
+    font-family: Roboto;
+    overflow-y: scroll;
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 20px;
+    width: 40%;
+    height: 80%;
+    top: 90px;
+    background-color: white;
+}
+.closeButtonContent{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.closeButtonContent button{
+    padding: 4px;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(245, 66, 66);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.itemsModalContent{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyDescription{
+    border-top: 2px solid grey;
+    width: 100%;
+    color: black;
+}
+
+@media(max-width:890px){
+    .buyInfo{
+        border-radius: 0;
+        width: 90%;
+    }
+}
+/*---------------------modal---------------------*/
+
+
+@media(max-width:600px){
+    .buyFormContainer{padding-top: 50px;}
+    .buyFormGroup{
+        width: 100%;
+    }
+}

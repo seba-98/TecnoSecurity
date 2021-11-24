@@ -1,0 +1,61 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ .navigation {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+}
+ .navigation ul {
+	 list-style: none;
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 border: 2px solid white;
+	 padding:0;
+	 margin: 0%;
+}
+ .navigation ul li {
+	 padding: 0 0px 0 0px;
+
+}
+ .navigation ul li button {
+	 border: none;
+	 cursor: pointer;
+	 text-align: center;
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 18px;
+	 text-decoration: none;
+	 color: white;
+	 background-color: #504e4e;
+	 padding: 15px;
+	 transition: all linear 0.2s;
+}
+ .navigation ul li button:hover {
+	 background-color: yellow;
+	 color: black;
+	 font-weight: bold;
+}
+ .articlesContainer {
+	 display: flex;
+	 justify-content: center;
+	 width: 100%;
+	 height: auto;
+}
+
+ @media (max-width: 421px) {
+	/* .vistaArticulo {
+		 padding: 300px 20px 200px 20px;
+	}
+	  .vistaArticulo p {
+		 max-width: 50%;
+	} */
+	 .imgs img {
+		 width: 200px;
+		 height: 200px;
+	}
+}
+@media (max-width: 410px) {
+	.navigation ul li {width: 100%;}
+	.navigation ul{border: 1px solid white;}
+	.navigation  button {width: 100%;}
+}
+ 

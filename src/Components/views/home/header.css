@@ -1,0 +1,167 @@
+﻿header {
+	 height: 60px !important;
+	 position: fixed;
+	 width: 100%;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+	 padding: 20px 300px 20px 0px;
+	 background-color: #131313;
+	 z-index: 3;
+}
+ header .brand, header .brand img {
+	 position: fixed;
+	 top: -4px;
+	 left: 50px;
+	 width: 100px;
+	 height: 100px;
+	 align-self: center;
+	 padding-right: 60px;
+	 padding-left: 30px;
+	 border-bottom: 6px solid #272727;
+}
+ header .brandLine {
+	 position: fixed;
+	 top: 61px;
+	 left: 263px;
+	 border-right: 14px solid #272727;
+	 height: 40px;
+	 transform: skewX(-60deg);
+}
+ header .navItems {
+	 position: fixed;
+	 left: 300px;
+	 width: 70% !important;
+	 border-bottom: 5px solid #272727;
+	 padding-left: 50px;
+	 justify-content: space-between;
+	 display: flex;
+	 flex-wrap: nowrap;
+	 height: 40px;
+}
+ header .navItems h1 {
+	 margin: 0;
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 37px;
+}
+ header .navItems .userItems {
+	 position: relative;
+	 width: 30%;
+	 display: flex;
+	 justify-content: space-around;
+	 flex-wrap: wrap;
+	 bottom: 10px;
+}
+ header .navItems .userItems .admin {
+	 background-image: url(../../../images/admin.png);
+	 border-radius: 50%;
+	 transition: 0.5s;
+	 width: 45px;
+	 height: 45px;
+}
+ header .navItems .userItems .admin:hover {
+	 transform: scale(110%);
+}
+ header .navItems .userItems .cart {
+	 background-image: url(../../../images/cart-icon.png);
+	 background-color: #131313;
+	 width: 45px;
+	 height: 45px;
+}
+ header .navItems .userItems .cart:hover {
+	
+}
+ header .navItems .userItems select {
+	 background-color: #303030;
+	 color: white;
+	 width: 110px;
+}
+ header .navItems .userItems button {
+	 cursor: pointer;
+	 border: none;
+	 width: 40px;
+	 height: 40px;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 align-self: center;
+	 text-decoration: none;
+	 font-style: none;
+}
+ .divisor {
+	 height: 140px;
+}
+
+
+.itemCounter {
+	position: relative;
+	left: 40px;
+	bottom: 15px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(38, 255, 0);
+	border: 1px solid rgb(38, 255, 0);
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: bold;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+
+ @media (max-width: 1096px) {
+	 .navItems {
+		 justify-content: center !important;
+	}
+}
+ @media (max-width: 860px) {
+	 .brand, .brand img {
+		 left: 0px !important;
+		 padding-right: 0px !important;
+		 padding-left: 0px !important;
+	}
+	 .navItems {
+		 width: 40% !important;
+		 left: 157px !important;
+	}
+	 .brandLine {
+		 left: 120px !important;
+	}
+}
+ @media (max-width: 624px) {
+	 header {
+		 max-width: 90% !important;
+	}
+	 .navItems {
+		 max-width: 100%;
+	}
+	 .navItems h1 {
+		 display: none;
+	}
+	 .userItems {
+		 width: 60% !important;
+	}
+}
+ @media (max-width: 457px) {
+	 header {
+		 max-width: 90% !important;
+	}
+	 .navItems {
+		 max-width: 50%;
+	}
+	 .navItems h1 {
+		 display: none;
+	}
+	 .navItems button {
+		 max-width: 35px;
+		 max-height: 35px;
+		 margin: 0 5px 0 5px;
+	}
+	 .userItems {
+		 position: relative;
+		 right: 70px;
+		 width: 70% !important;
+	}
+}
+ 

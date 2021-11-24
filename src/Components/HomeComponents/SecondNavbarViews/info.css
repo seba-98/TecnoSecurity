@@ -1,0 +1,33 @@
+﻿.info {
+	 background-image: url(../../../images/slider.jpg);
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 width: 100%;
+	 height: 700px;
+	 display: grid;
+	 place-content: center;
+}
+ .info h3, .info p {
+	 font-family: Roboto;
+}
+ .info h3 {
+	 font-size: 40px;
+	 color: white;
+}
+ .info p {
+	 font-size: 30px;
+}
+
+ 
+@media(max-width:613px){
+
+	.info h3 {
+		font-size: 30px;
+		color: white;
+   }
+	.info p {
+		font-size: 25px;
+   }
+
+}

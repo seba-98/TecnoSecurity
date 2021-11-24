@@ -1,0 +1,113 @@
+﻿@import "~slick-carousel/slick/slick.css";
+ @import "~slick-carousel/slick/slick-theme.css";
+ .destacados {
+	 width: 87%;
+	 margin: 4rem auto;
+	 height: 600px;
+	 background-color: #fff;
+	 font-family: 'Roboto', sans-serif;
+}
+ .card {
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+	 width: 300px;
+	 height: 500px;
+	 margin: auto;
+	 padding: 0px;
+	 margin-top: 20px;
+	 background-color: #fff;
+	 border: 2px solid #e2e2e2;
+}
+ .card img {
+	 width: 100%;
+}
+ .card h3, .card p {
+	 text-align: center;
+	 width: 100%;
+	 color: black;
+	 height: 50px;
+}
+ .card h3 {
+	 font-size: 20px;
+}
+ .card:hover {
+	 transition: border 0.2s linear;
+	 transition: height 0.2s linear;
+	 border: 2px solid #f00;
+	 height: 550px;
+}
+ .card:hover .botonAñadir {
+	 visibility: initial;
+}
+  .botonAñadir {
+	 top: 505px;
+	 position: absolute;
+	 display: flex;
+	 visibility: hidden;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+	 background-color: black;
+	 height: 70px;
+	 width: 300px;
+}
+ .botonAñadir button {
+	 cursor: pointer;
+	 background-color: #e44646;
+	 color: white;
+	 font-size: 18px;
+	 padding: 15px;
+	 border: none;
+	 height: auto;
+	 width: auto;
+	 border-radius: 40px;
+}
+
+@media (max-width:1010px) {
+	.card {
+		width: 250px;
+   }
+   .botonAñadir{
+	width: 250px !important;
+}
+}
+
+@media (max-width: 850px) {
+	.card {
+		width: 200px;
+   }
+   .botonAñadir{
+	width: 200px !important;
+}
+}
+@media (max-width: 665px) {
+	.card {
+		width: 170px;
+   }
+   .botonAñadir{
+	width: 170px !important;
+}
+}
+ @media (max-width: 557px) {
+	
+	 .card {
+		 width: 200px;
+	}
+	.botonAñadir{
+		width: 200px !important;
+	}
+}
+@media (max-width: 450px) {
+	.card {
+		width: 220px;
+   }
+   .botonAñadir{
+	   width: 220px !important;
+   }
+}
+
+
+
+ 
+ 
