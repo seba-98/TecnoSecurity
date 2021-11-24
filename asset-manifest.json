@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/TecnoSecurity/static/css/main.44395572.chunk.css",
-    "main.js": "/TecnoSecurity/static/js/main.42dfa204.chunk.js",
-    "main.js.map": "/TecnoSecurity/static/js/main.42dfa204.chunk.js.map",
+    "main.js": "/TecnoSecurity/static/js/main.3b538b32.chunk.js",
+    "main.js.map": "/TecnoSecurity/static/js/main.3b538b32.chunk.js.map",
     "runtime-main.js": "/TecnoSecurity/static/js/runtime-main.105418e8.js",
     "runtime-main.js.map": "/TecnoSecurity/static/js/runtime-main.105418e8.js.map",
     "static/css/2.f3c24f35.chunk.css": "/TecnoSecurity/static/css/2.f3c24f35.chunk.css",
-    "static/js/2.8bddf874.chunk.js": "/TecnoSecurity/static/js/2.8bddf874.chunk.js",
-    "static/js/2.8bddf874.chunk.js.map": "/TecnoSecurity/static/js/2.8bddf874.chunk.js.map",
+    "static/js/2.16805e38.chunk.js": "/TecnoSecurity/static/js/2.16805e38.chunk.js",
+    "static/js/2.16805e38.chunk.js.map": "/TecnoSecurity/static/js/2.16805e38.chunk.js.map",
     "index.html": "/TecnoSecurity/index.html",
-    "precache-manifest.49b7a76fe2f27a756d02989f32b634cd.js": "/TecnoSecurity/precache-manifest.49b7a76fe2f27a756d02989f32b634cd.js",
+    "precache-manifest.9896ebf5aefc9e969aace801900b753b.js": "/TecnoSecurity/precache-manifest.9896ebf5aefc9e969aace801900b753b.js",
     "service-worker.js": "/TecnoSecurity/service-worker.js",
     "static/css/2.f3c24f35.chunk.css.map": "/TecnoSecurity/static/css/2.f3c24f35.chunk.css.map",
     "static/css/main.44395572.chunk.css.map": "/TecnoSecurity/static/css/main.44395572.chunk.css.map",
-    "static/js/2.8bddf874.chunk.js.LICENSE.txt": "/TecnoSecurity/static/js/2.8bddf874.chunk.js.LICENSE.txt",
+    "static/js/2.16805e38.chunk.js.LICENSE.txt": "/TecnoSecurity/static/js/2.16805e38.chunk.js.LICENSE.txt",
     "static/media/errorPage.css": "/TecnoSecurity/static/media/404.7acd9258.png",
     "static/media/header.css": "/TecnoSecurity/static/media/admin.af029248.png",
     "static/media/cctvkit.jpg": "/TecnoSecurity/static/media/cctvkit.c5a217c6.jpg",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.105418e8.js",
     "static/css/2.f3c24f35.chunk.css",
-    "static/js/2.8bddf874.chunk.js",
+    "static/js/2.16805e38.chunk.js",
     "static/css/main.44395572.chunk.css",
-    "static/js/main.42dfa204.chunk.js"
+    "static/js/main.3b538b32.chunk.js"
   ]
 }
