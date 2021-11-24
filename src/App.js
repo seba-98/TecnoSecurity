@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { CartProvider } from './CartContext';
 //-------Components------------
 import FirstNavbar from './Components/NavigationComponents/FirstNavbar/FirstNavBar';
