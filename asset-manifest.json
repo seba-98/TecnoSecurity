@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/TecnoSecurity/static/css/main.44395572.chunk.css",
+    "main.js": "/TecnoSecurity/static/js/main.42dfa204.chunk.js",
+    "main.js.map": "/TecnoSecurity/static/js/main.42dfa204.chunk.js.map",
+    "runtime-main.js": "/TecnoSecurity/static/js/runtime-main.105418e8.js",
+    "runtime-main.js.map": "/TecnoSecurity/static/js/runtime-main.105418e8.js.map",
+    "static/css/2.f3c24f35.chunk.css": "/TecnoSecurity/static/css/2.f3c24f35.chunk.css",
+    "static/js/2.8bddf874.chunk.js": "/TecnoSecurity/static/js/2.8bddf874.chunk.js",
+    "static/js/2.8bddf874.chunk.js.map": "/TecnoSecurity/static/js/2.8bddf874.chunk.js.map",
+    "index.html": "/TecnoSecurity/index.html",
+    "precache-manifest.49b7a76fe2f27a756d02989f32b634cd.js": "/TecnoSecurity/precache-manifest.49b7a76fe2f27a756d02989f32b634cd.js",
+    "service-worker.js": "/TecnoSecurity/service-worker.js",
+    "static/css/2.f3c24f35.chunk.css.map": "/TecnoSecurity/static/css/2.f3c24f35.chunk.css.map",
+    "static/css/main.44395572.chunk.css.map": "/TecnoSecurity/static/css/main.44395572.chunk.css.map",
+    "static/js/2.8bddf874.chunk.js.LICENSE.txt": "/TecnoSecurity/static/js/2.8bddf874.chunk.js.LICENSE.txt",
+    "static/media/errorPage.css": "/TecnoSecurity/static/media/404.7acd9258.png",
+    "static/media/header.css": "/TecnoSecurity/static/media/admin.af029248.png",
+    "static/media/cctvkit.jpg": "/TecnoSecurity/static/media/cctvkit.c5a217c6.jpg",
+    "static/media/cctvkitpcbox.jpg": "/TecnoSecurity/static/media/cctvkitpcbox.42ca8dc7.jpg",
+    "static/media/contact.png": "/TecnoSecurity/static/media/contact.df659da3.png",
+    "static/media/default.png": "/TecnoSecurity/static/media/default.419b248f.png",
+    "static/media/dvr.jpg": "/TecnoSecurity/static/media/dvr.47bc07fa.jpg",
+    "static/media/fb.jpg": "/TecnoSecurity/static/media/fb.e7c82fc2.jpg",
+    "static/media/ig.jpg": "/TecnoSecurity/static/media/ig.b5ef59dd.jpg",
+    "static/media/location.png": "/TecnoSecurity/static/media/location.ad593eee.png",
+    "static/media/preloadWhite.gif": "/TecnoSecurity/static/media/preloadWhite.c4eab4ae.gif",
+    "static/media/slick-theme.css": "/TecnoSecurity/static/media/slick.f97e3bbf.svg",
+    "static/media/info.css": "/TecnoSecurity/static/media/slider.4b9ca08f.jpg",
+    "static/media/wp.jpg": "/TecnoSecurity/static/media/wp.a11a1cb0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.105418e8.js",
+    "static/css/2.f3c24f35.chunk.css",
+    "static/js/2.8bddf874.chunk.js",
+    "static/css/main.44395572.chunk.css",
+    "static/js/main.42dfa204.chunk.js"
+  ]
+}
