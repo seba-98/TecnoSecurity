@@ -16,7 +16,7 @@ const App= ()=> {
 
   
     return (
-      <Router>
+      <Router basename={procesos.env.PUBLIC_URL}>
           <div className="App">
           <CartProvider>  
             <FirstNavbar />
