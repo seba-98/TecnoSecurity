@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": ".",
+  "homepage": "https://upbeat-boyd-096290.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,8 +24,9 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "build": "react-scripts build ", 
+    "deploy": "serve -s build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

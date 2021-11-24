@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch, } from 'react-router-dom';
 import { CartProvider } from './CartContext';
 //-------Components------------
 import FirstNavbar from './Components/NavigationComponents/FirstNavbar/FirstNavBar';
@@ -16,23 +16,22 @@ const App= ()=> {
 
   
     return (
-      <Router >
-          <div className="App">
-          <CartProvider>  
-            <FirstNavbar />
-                <Switch >
-                  <Route path='/' exact component={Home}/>
-                  <Route path='/home' exact component={Home}/>
-                  <Route path='/cart' exact component={Cart}/>
-                  <Route path='/article/:id' exact component={ItemDetail}/>
-                  <Route path='/admin' exact component={Admin}/>
-                  <Route path='/cart/form' exact component={BuyForm}/>
-                  <Route path='/*' exact component={ErrorPage}/>
-                </Switch>
-            <Footer/>    
-          </CartProvider>
+      <div className="App">
+              <CartProvider>  
+              <HashRouter>
+                    <Switch >
+                      <Route exact path='/'  component={Home}/>
+                      <Route exact path='/home'  component={Home}/>
+                      <Route exact path='/cart'  component={Cart}/>
+                      <Route exact path='/article/:id'  component={ItemDetail}/>
+                      <Route exact path='/admin'  component={Admin}/>
+                      <Route exact path='/cart/form'  component={BuyForm}/>
+                      <Route exact path='/*'  component={ErrorPage}/>
+                    </Switch>
+                <Footer/>    
+              </HashRouter>
+              </CartProvider>
           </div>
-      </Router>
     )
 }
 export default App;
