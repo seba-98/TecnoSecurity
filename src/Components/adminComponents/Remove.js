@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { getDocs, deleteDoc, collection, doc,  } from '@firebase/firestore';
 import { db } from '../../firebase.config'
-import { useState } from 'react/cjs/react.development';
+import {  } from 'react/cjs/react.development';
 import swal from 'sweetalert';
 import BackButton from '../widgets/backButton/BackButton';
 import Preload from '../widgets/preload/Preload';
