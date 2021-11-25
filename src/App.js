@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { HashRouter, Route, Switch, } from 'react-router-dom';
+import { Route, Switch, } from 'react-router-dom';
 import { CartProvider } from './CartContext';
 //-------Components------------
 import FirstNavbar from './Components/NavigationComponents/FirstNavbar/FirstNavBar';
@@ -15,11 +15,9 @@ import BuyForm from './Components/CartComponents/buyForm/BuyForm';
 
 const App= ()=> {
 
-  
     return (
       <div className="App">
               <CartProvider>  
-              <HashRouter>
                 <FirstNavbar/>
                     <Switch >
                       <Route exact path='/'  component={Home}/>
@@ -31,7 +29,6 @@ const App= ()=> {
                       <Route exact path='/*'  component={ErrorPage}/>
                     </Switch>
                 <Footer/>    
-              </HashRouter>
               </CartProvider>
           </div>
     )
