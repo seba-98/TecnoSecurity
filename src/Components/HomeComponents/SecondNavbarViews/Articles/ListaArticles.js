@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import {getDocs, query, collection, where } from '@firebase/firestore';
@@ -6,7 +6,6 @@ import { db } from '../../../../firebase.config';
 import Preload from '../../../widgets/preload/Preload';
 import './articleList.css'
 import Article from './Article';
-import { useEffect } from 'react/cjs/react.development';
 
 const ListaArticles = () => {
 
