@@ -1,6 +1,5 @@
 {
   "name": "my-app",
-  "homepage": "https://sad-hermann-6b26df.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
