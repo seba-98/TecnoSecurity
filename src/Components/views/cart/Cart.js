@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import CartItem from '../../CartComponents/CartItem';
 import './carrito.css';
 import BackButton from '../../widgets/backButton/BackButton';
+import ScrollToTop from '../../widgets/scrollTop/ScrollToTop';
 
 const Cart = () => {
 
@@ -15,6 +16,7 @@ const Cart = () => {
     }
         return (
         <section className='cartContainer'>
+            <ScrollToTop />
     
             <div><BackButton/></div>
             {carrito.length>0 &&

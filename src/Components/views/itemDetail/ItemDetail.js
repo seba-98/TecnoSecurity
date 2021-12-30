@@ -5,6 +5,7 @@ import { db } from '../../../firebase.config';
 import { cartContext } from '../../../CartContext';
 import swal from 'sweetalert';
 import ErrorPage from '../../errorPage/ErrorPage';
+import ScrollToTop from '../../widgets/scrollTop/ScrollToTop';
 
 //-----load y deafult img
 import Preload from '../../widgets/preload/Preload';
@@ -127,8 +128,10 @@ const ItemDetail = ({match}) => {
     }
 
     return(
+        
 
     reqReady===true ? <div className='vistaArticulo'>
+                         <ScrollToTop />
                          <Preload style={stylePreload} widthImg='100%' />
                       </div>
 
@@ -137,6 +140,7 @@ const ItemDetail = ({match}) => {
                     article !== false ? 
 
                     <div className='vistaArticulo'>
+                        <ScrollToTop />
                         <div className="articleDetail">
                                 <h3  className='title'>{article.name}</h3>
                                 <div>

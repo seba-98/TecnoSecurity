@@ -8,8 +8,9 @@ import Update from '../../adminComponents/Update';
 import Login from '../../adminComponents/Login';
 import swal from 'sweetalert';
 import { app } from '../../../firebase.config';
-
 import { getAuth, onAuthStateChanged, signOut} from '@firebase/auth';
+import ScrollToTop from '../../widgets/scrollTop/ScrollToTop';
+
 const auth = getAuth(app)
 
 const Admin = () => {
@@ -44,6 +45,8 @@ const Admin = () => {
 
         return (
             <>
+
+            <ScrollToTop />
                 <div style={{paddingTop:manageWindow === 'remove' ? '200px' : '100px'}}></div>
                 <div className='formContainer' style={{marginBottom: '50px'}}>
                     <h2>Panel de administración</h2>

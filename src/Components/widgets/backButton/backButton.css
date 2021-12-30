@@ -1,0 +1,29 @@
+.backBtn{
+    border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	font-size: 35px;
+	padding: 10px ;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-weight: bold;
+	background-color: black ;
+	color: chartreuse;
+
+}
+
+.backBtn:hover::after {
+    
+    content: 'VOLVER';
+    font-size: 20px;
+}
+
+
+@media(max-width:700px){
+    .backBtn{
+      
+        padding: 0 16px 10px 12px !important;
+       
+    }
+}
